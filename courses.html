@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    ></script>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="nav-logo">PenguinCoding.</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="courses.html" class="nav-link">courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="programming.html" class="nav-link">Programming</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Login</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <h2 class="lesson">Linear Equation in Python by <a href="index.html">kamhar ngado</a>  </h2>
+
+    <div class="prerequites">
+      <p class="fontBold">Tools that you need:</span>  </p>
+      <ol>
+        <li><a href="https://replit.com/">python compiler online</a> </li>
+        <li><a href="https://github.com/kamhar-ngado/Linear-equation/blob/main/linearEquation.py#L1">Source Code from my GitHub</a> </li>
+        <li><a href="https://www.geogebra.org/classic?lang=en">Geogebra online</a></li>
+      </ol>
+    </div>
+    
+    <div class="questions">
+      <ol>
+        <!-- number 1 -->
+        <li>
+          What is the solution of linear equation systems \(3x-2y=5\), \(2x+y=7\) <br />
+          <input type="radio" id="A1" name="MC1" value="correct1" />A.
+          <label id="ans1A" for="A">\(x=3\) and \(y=2\)</label
+            ><br />
+            <input type="radio" id="B1" name="MC1" value="uncorrect" />B.
+            <label for="B">\(x=3\) and \(y=2\)</label><br />
+            <input type="radio" id="C1" name="MC1" value="uncorrect" />C.
+            <label for="C">\(x=3\) and \(y=2\)</label><br />
+            <input type="radio" id="D1" name="MC1" value="uncorrect" />D.
+            <label for="D">\(x=3\) and \(y=2\)</label><br />
+            <input type="radio" id="E1" name="MC1" value="uncorrect" />E.
+        <label for="E">\(x=3\) and \(y=2\)</label><br />
+      </li>
+      <button onclick="check1()">check</button>
+      <!-- number 2 -->
+      <li>
+        What is the solution of linear equation systems \(5a+b+c=11\),  \(a+6b+3c=-1\)
+         and \(2a+b-c=-1\). <br />
+        <input type="radio" id="A2" name="MC2" value="uncorrect" />A.
+        <label for="A">(3, 2, 3)</label><br />
+        <input type="radio" id="B2" name="MC2" value="uncorrect" />B.
+        <label for="B">(2, 3, \(-2\))</label><br />
+        <input type="radio" id="C2" name="MC2" value="correct2" />C.
+        <label id="ans2C" for="C">(2,\(-2\), 3)</label
+        ><br />
+        <input type="radio" id="D2" name="MC2" value="uncorrect" />D.
+        <label for="D">(3,\(1\), 2)</label><br />
+        <input type="radio" id="E2" name="MC2" value="uncorrect" />E.
+        <label for="E">(3,3, 2)</label><br />
+      </li>
+      <button onclick="check2()">check</button>
+
+      <!-- number 3 -->
+      <li>
+        Let a=3*x, eq1 = Eq((x+y+z), 1), eq2 = Eq((a+2*y+z), 2) and eq3 = Eq((4*x-2*y-3*z), 3) what is the value of (x,y,z). <br />
+        <input type="radio" id="A2" name="MC2" value="uncorrect" />A.
+        <label for="A">(2, 1, \(-2\))</label><br />
+        <input type="radio" id="B2" name="MC2" value="uncorrect" />B.
+        <label for="B">(1, 2, \(-3\))</label><br />
+        <input type="radio" id="C2" name="MC2" value="correct3" />C.
+        <label id="ans3C" for="C">(1,\(-1\), 1)</label
+        ><br />
+        <input type="radio" id="D2" name="MC2" value="uncorrect" />D.
+        <label for="D">(2,\(-1\), 2)</label><br />
+        <input type="radio" id="E2" name="MC2" value="uncorrect" />E.
+        <label for="E">(3,\(-1\), 2)</label><br />
+      </li>
+      <button onclick="check3()">check</button>
+    </ol>
+    <li>find more questions about linear systems on www.quizizz.com</li>
+  </div>
+    
+    <div class="footer">
+      <p>&copy; Copyright 2022. Penguin Coding</p>
+    </div>
+  </body>
+
+  <script src="/main.js"></script>
+  <script src="app.js"></script>
+</html>
